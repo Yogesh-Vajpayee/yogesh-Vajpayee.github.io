@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #2c4964; 
+  color: #534da8; 
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2c4964;
+  background: #534da8;
   color: #fff;
 }
 
@@ -148,7 +148,7 @@ h6 {
 .navbar .active li,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #2c4964;
+  color: #534da8;
 }
 
 .navbar .dropdown ul {
@@ -183,7 +183,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #2c4964;
+  color: #534da8;
 }
 
 .navbar .dropdown:hover>ul {
@@ -218,7 +218,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #2c4964;
+  color: #534da8;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -276,7 +276,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964; 
+  color: #534da8; 
 }
 
 .navbar-mobile a:hover,
@@ -392,7 +392,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .section-bg {
@@ -400,8 +400,32 @@ section {
 }
 
 .section-title {
+  text-align-last: inherit;
   padding-bottom: 30px;
 }
+
+.section-title h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  position: relative;
+  color: #ff2331;
+}
+
+
+.section-title h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 240px;
+  height: 3px;
+  background: #ff2331;
+  bottom: 0;
+  left: 0;
+}
+
 
 .section-title h2 {
   font-size: 32px;
@@ -409,7 +433,7 @@ section {
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
-  color: #ff2331;
+  color: #534da8
 }
 
 .section-title h2::after {
@@ -484,10 +508,40 @@ section {
 
 .about .content h3 {
   font-weight: 500;
-  font-size: 34px;
-  color: #ff2331;
   text-align: center;
 }
+
+.about .content h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 630px;
+  height: 3px;
+  background: #ff2331;
+  top: 0;
+  left: 0;
+}
+
+.about .content h3 {
+  font-size: 62px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  color: #ff2331
+}
+
+.about .content h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 630px;
+  height: 3px;
+  background: #ff2331;
+  bottom: 0;
+  left: 0;
+}
+
 
 .about .content p {
   margin-bottom: 0;
@@ -511,7 +565,7 @@ section {
   line-height: 20px;
   display: block;
   font-weight: 700;
-  color: #2c4964;
+  color: #534da8;
   margin-left: 50px;
   font-family: "Playfair Display", serif;
 }
@@ -521,21 +575,21 @@ section {
   margin: 0 0 0 50px;
   font-family: "Playfair Display", serif;
   font-size: 14px;
-  color: #437099;
+  color: #534da8;
 }
 
 .about .content .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #437099;
+  color: #534da8;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .about .content .count-box a:hover {
-  color: #6b96be;
+  color: #534da8;
 }
 
 .about .image {
@@ -576,7 +630,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #2c4964;
+  color: #534da8;
 }
 
 .skills .progress .skill .val {
@@ -599,9 +653,9 @@ section {
 # Resume 
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   color: #ff2331;
   font-family: "Poppins", sans-serif;
@@ -683,7 +737,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #2c4964;
+  background: #534da8;
   height: 100%;
   border-radius: 0px;
 }
@@ -1063,7 +1117,7 @@ section {
 }
 
 .contact .social-links a:hover {
-  background: #2c4964;
+  background: #534da8;
   color: #fff;
 }
 
@@ -1088,7 +1142,7 @@ section {
 }
 
 .contact .info i:hover {
-  background: #2c4964;
+  background: #534da8;
   color: #fff;
 }
 
@@ -1108,7 +1162,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #2c4964;
+  background: #534da8;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1121,7 +1175,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #2c4964;
+  background: #534da8;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1141,7 +1195,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #2c4964;
+  border: 3px solid #534da8;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1155,7 +1209,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #2c4964;
+  border-color: #534da8;
 }
 
 .contact .php-email-form button[type=submit] {
@@ -1168,7 +1222,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #2c4964;
+  background: #534da8;
 }
 
 @keyframes animate-loading {
